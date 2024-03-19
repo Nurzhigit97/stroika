@@ -14,6 +14,7 @@ class AppInputWidget extends StatefulWidget {
   final Color? titleColor;
   final int? maxLines;
   final Widget? leading;
+  final Widget? traliing;
   final bool? isReadOnly;
 
   const AppInputWidget({
@@ -30,6 +31,7 @@ class AppInputWidget extends StatefulWidget {
     this.titleColor = AppColors.black1,
     this.maxLines = 1,
     this.leading,
+    this.traliing,
     this.isReadOnly = false,
   });
 

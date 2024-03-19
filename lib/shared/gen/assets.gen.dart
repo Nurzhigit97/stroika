@@ -25,11 +25,46 @@ class $AssetsImagesPngGen {
   AssetGenImage get backgroundImage =>
       const AssetGenImage('assets/images/png/background_image.png');
 
+  /// File path: assets/images/png/item1.png
+  AssetGenImage get item1 => const AssetGenImage('assets/images/png/item1.png');
+
+  /// File path: assets/images/png/item2.png
+  AssetGenImage get item2 => const AssetGenImage('assets/images/png/item2.png');
+
+  /// File path: assets/images/png/item3.png
+  AssetGenImage get item3 => const AssetGenImage('assets/images/png/item3.png');
+
+  /// File path: assets/images/png/item4.png
+  AssetGenImage get item4 => const AssetGenImage('assets/images/png/item4.png');
+
   /// File path: assets/images/png/logo.png
   AssetGenImage get logo => const AssetGenImage('assets/images/png/logo.png');
 
+  /// File path: assets/images/png/main1.png
+  AssetGenImage get main1 => const AssetGenImage('assets/images/png/main1.png');
+
+  /// File path: assets/images/png/main2.png
+  AssetGenImage get main2 => const AssetGenImage('assets/images/png/main2.png');
+
+  /// File path: assets/images/png/main3.png
+  AssetGenImage get main3 => const AssetGenImage('assets/images/png/main3.png');
+
+  /// File path: assets/images/png/main4.png
+  AssetGenImage get main4 => const AssetGenImage('assets/images/png/main4.png');
+
   /// List of all assets
-  List<AssetGenImage> get values => [backgroundImage, logo];
+  List<AssetGenImage> get values => [
+        backgroundImage,
+        item1,
+        item2,
+        item3,
+        item4,
+        logo,
+        main1,
+        main2,
+        main3,
+        main4
+      ];
 }
 
 class $AssetsImagesSvgGen {
